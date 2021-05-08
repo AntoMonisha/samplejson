@@ -4,11 +4,11 @@
     {"ID":25,"deviceid":"12345", "enrollno":1234, "OTP":123, "OTP_VALID_FOR_SEC":60}
   ,
   "confirmOTP": 
-    {"deviceid":"12345", "enrollno":"1234", "flag":"s","expiry":"date"}
+    {"deviceid":"12345", "enrollno":1234, "flag":"s","expiry":"date"}
 ,
   "familyMembers": {
  "deviceid": "12345",
- "enrollno": "1234",
+ "enrollno": 1234,
  "exists": "Y/N",
  "family_id": "1",
  "Family_details": [{
