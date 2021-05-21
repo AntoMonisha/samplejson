@@ -28,4 +28,3 @@
   {"Deviceid":"12345","Enrollno":1234,"Exists":"Y","Family_id":1,"Fam_member_id":1,"Qtype_id":1,"Question":[{"Qid":1,"Qtext":"Q1","Ans_options":[{"Aid":1,"Ans_text":"A1"},{"Aid":2,"Ans_text":"A2"}]},{"Qid":2,"Qtext":"Q2","Ans_options":[{"Aid":3,"Ans_text":"A3"},{"Aid":4,"Ans_text":"A4"}]},{"Qid":3,"Qtext":"Q3","Ans_options":[{"Aid":5,"Ans_text":"A5"},{"Aid":6,"Ans_text":"A6"}]},{"Qid":4,"Qtext":"Q4","Ans_options":[{"Aid":7,"Ans_text":"A7"},{"Aid":8,"Ans_text":"A8"}]},{"Qid":5,"Qtext":"Q5","Ans_options":[{"Aid":9,"Ans_text":"A9"},{"Aid":10,"Ans_text":"A10"}]}]}
 
 }
-,
