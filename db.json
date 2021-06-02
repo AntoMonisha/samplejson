@@ -1,10 +1,10 @@
 
 {
   "confirmEnrollment": 
-    {"ID":25,"deviceid":"12345", "enrollno":1234, "OTP":123, "OTP_VALID_FOR_SEC":60}
+    {"Id":25,"Deviceid":"12345", "Enrollno":1234, "Otp":123, "Otp_valid_for_sec":60,"Enrollmentconfirmed":"N"}
   ,
   "confirmOTP": 
-    {"deviceid":"12345", "enrollno":1234, "flag":"s","expiry":"date"}
+    {"Deviceid":"12345", "Enrollno":1234, "Flag":"Y","Expiry":"31-12-2021"}
 ,
   "familyMembers": {
  "Deviceid": "12345",
