@@ -36,6 +36,56 @@
 ,
   "sgQuestionsSubmit":
     {"Deviceid":"12345","Enrollno":1234,"Family_id":1,"Fam_member_id":1,"Qtype_id":1,"Ask_medical_report":"N","Success":"Y", "Body_Nature" : [{"Id":1,"Name":"Kapha","Count":10,"RGB":"79,29,189"},{"Id":1,"Name":"Pitta","Count":2,"RGB":"192,80,77"},{"Id":1,"Name":"Vaata","Count":3,"RGB":"0,0,0"}]}
+  ,
+  "GetviewAnalysisModel":
+  {"Success":"Y/N",
+"Msg":"Data Found/No Data Found/Error Message",
+"Enrollno":1234,
+"Family_id":1,
+"Fam_member_id":1,
+"Health_Analysis": {
+        "Family_id": 1,
+        "Fam_member_id": 2,
+        "Fam_member_name": "Savitaa",
+        "Enrollno": 1234,
+        "Enroll_from_date": "01-May-2021",
+        "Enroll_to_date": "30-Nov-2021",
+        "AnalysisText": "-",
+        "UserId": 0,
+        "UserName": "-",
+        "UserDate": "-"
+       },
+"Body_nature" : [{"Id":1,"Name":"Kapha","Count":10,"Rgb":"79,29,189"},
+                 {"Id":1,"Name":"Pitta","Count":2,"Rgb":"192,80,77"},
+                 {"Id":1,"Name":"Vaata","Count":3,"Rgb":"0,0,0"}
+                ],
+"Tissue_status_qtype_result_legend" : [{"Id":1,"Name":"No_Consideration"},
+     {"Id":2,"Name":"Poor"},
+     {"Id":3,"Name":"Good"},
+     {"Id":4,"Name":"Very_Good"},
+     {"Id":5,"Name":"Excellent"}
+          ],
+"Tissue_status" : [{"Qtype_id":4,"Qtype":"Tissue Status - Rasa","Count":4, "Qtype_result":4, "Rgb":"79,29,189"},
+                 {"qtype_id":5,"qtype":"Tissue Status - Rakta","count":3, "qtype_result":3, "Rgb":"79,29,189"},
+                 {"qtype_id":6,"qtype":"Tissue Status - Mamsa","count":3, "qtype_result":1, "Rgb":"79,29,189"},
+  {"qtype_id":7,"qtype":"Tissue Status - Meda","count":11, "qtype_result":5, "Rgb":"79,29,189"},
+  {"qtype_id":8,"qtype":"Tissue Status - Asthi","count":5, "qtype_result":2, "Rgb":"79,29,189"},
+  {"qtype_id":9,"qtype":"Tissue Status - Majja","count":7, "qtype_result":3, "Rgb":"79,29,189"},
+  {"qtype_id":10,"qtype":"Tissue Status - Shukra","count":5, "qtype_result":4, "Rgb":"79,29,189"}
+                ],
+
+"MedicalReport":"Base64String",
+"Response" : [
+{"qtype_id":1,"qtype":"Basic Health", "qid":1,"qtext":"", "aid":1,"ans_text":"","ans_date":""},
+{"qtype_id":1,"qtype":"Basic Health", "qid":1,"qtext":"", "aid":1,"ans_text":"","ans_date":""},
+{"qtype_id":2,"qtype":"Disease Details", "qid":1,"qtext":"", "aid":1,"ans_text":"","ans_date":""},
+{"qtype_id":2,"qtype":"Disease Details", "qid":1,"qtext":"", "aid":1,"ans_text":"","ans_date":""},
+{"qtype_id":3,"qtype":"Mediciens Details", "qid":1,"qtext":"", "aid":1,"ans_text":"","ans_date":""},
+{"qtype_id":4,"qtype":"Tissue Status", "qid":1,"qtext":"", "aid":1,"ans_text":"","ans_date":""},
+{"qtype_id":5,"qtype":"Mala-Excretory Status", "qid":1,"qtext":"", "aid":1,"ans_text":"","ans_date":""},
+{"qtype_id":6,"qtype":"General Questions", "qid":1,"qtext":"", "aid":1,"ans_text":"","ans_date":""}
+]
+}
 
 }
 
