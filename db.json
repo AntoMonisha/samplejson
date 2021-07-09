@@ -29,12 +29,12 @@
      {"Id":5,"Name":"Excellent"}
           ],
 "Tissue_status" : [{"Qtype_id":4,"Qtype":"Tissue Status - Rasa","Count":4, "Qtype_result":4, "Rgb":"79,29,189"},
-                 {"qtype_id":5,"qtype":"Tissue Status - Rakta","count":3, "qtype_result":3, "Rgb":"79,29,189"},
-                 {"qtype_id":6,"qtype":"Tissue Status - Mamsa","count":3, "qtype_result":1, "Rgb":"79,29,189"},
-  {"qtype_id":7,"qtype":"Tissue Status - Meda","count":11, "qtype_result":5, "Rgb":"79,29,189"},
-  {"qtype_id":8,"qtype":"Tissue Status - Asthi","count":5, "qtype_result":2, "Rgb":"79,29,189"},
-  {"qtype_id":9,"qtype":"Tissue Status - Majja","count":7, "qtype_result":3, "Rgb":"79,29,189"},
-  {"qtype_id":10,"qtype":"Tissue Status - Shukra","count":5, "qtype_result":4, "Rgb":"79,29,189"}
+                 {"Qtype_id":5,"qtype":"Tissue Status - Rakta","Count":3, "Qtype_result":3, "Rgb":"79,29,189"},
+                 {"Qtype_id":6,"qtype":"Tissue Status - Mamsa","Count":3, "Qtype_result":1, "Rgb":"79,29,189"},
+  {"Qtype_id":7,"qtype":"Tissue Status - Meda","Count":11, "Qtype_result":5, "Rgb":"79,29,189"},
+  {"Qtype_id":8,"qtype":"Tissue Status - Asthi","Count":5, "Qtype_result":2, "Rgb":"79,29,189"},
+  {"Qtype_id":9,"qtype":"Tissue Status - Majja","Count":7, "Qtype_result":3, "Rgb":"79,29,189"},
+  {"Qtype_id":10,"qtype":"Tissue Status - Shukra","Count":5, "Qtype_result":4, "Rgb":"79,29,189"}
                 ],
 
 "MedicalReport":"Base64String",
